@@ -94,7 +94,7 @@ ollama run EEVE-Korean-10.8B
 ```python
 if memory in memory_log[pid]:  # 이전에 했던 기억과 동일한 진술이라면
     suspicion_score[pid] += 1  # 의심 점수 +1
-
+```
 memory_log: 각 캐릭터가 과거에 했던 발언(기억)을 저장하는 구조
 
 suspicion_score: 반복 발언 시 자동 증가되는 수치
