@@ -13,7 +13,7 @@
 
 | 짐 레이너 | 사라 케리건 | 사미르 듀란 | 에드먼드 듀크 | 아크튜러스 맹스크 | 톰 카잔스키 | 노바 테라 | 알렉세이 스투코프 |
 |:---------:|:-----------:|:------------:|:--------------:|:-----------------:|:-------------:|:----------:|:-------------------:|
-| ![](data/raynor.jpg) | ![](data/kerrigan.jpg) | ![](data/duran.png) | ![](data/duke.jpg) | ![](data/mengsk.jpg) | ![](data/tom.jpg) | ![](data/nova.jpg) | ![](data/stukov.jpg) |
+| <img src="data/raynor.jpg" width="100"/> | <img src="data/kerrigan.jpg" width="100"/> | <img src="data/duran.png" width="100"/> | <img src="data/duke.jpg" width="100"/> | <img src="data/mengsk.jpg" width="100"/> | <img src="data/tom.jpg" width="100"/> | <img src="data/nova.jpg" width="100"/> | <img src="data/stukov.jpg" width="100"/> |
 
 ## ⚙️ 설치 및 실행 환경
 
