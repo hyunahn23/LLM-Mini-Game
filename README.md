@@ -1,6 +1,3 @@
-# LLM-mini-Game (수상한 배틀쿠르져)
-The Suspicious Battlecruiser
-
 # 🛸 수상한 배틀크루져 (Suspicious Battlecruiser)
 
 ‘수상한 배틀크루져’는 스타크래프트 세계관 속 등장인물들이 감염된 테란을 찾아내는 **우주선판 마피아 게임**입니다. LLM을 활용한 심리전과 추리가 결합된 싱글플레이 추리 시뮬레이션이며, 유저 1명과 LLM 캐릭터 8명이 게임을 진행합니다.
