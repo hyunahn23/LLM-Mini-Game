@@ -82,6 +82,28 @@ ollama run EEVE-Korean-10.8B
 
 ---
 
+### 🔍 의심 점수 시스템 (Suspicion Score System)
+
+게임에서는 각 캐릭터의 발언이 **반복되거나 비정상적일 경우**, 내부적으로 "의심 점수(Suspicion Score)"가 올라갑니다.  
+이는 LLM이 직접 판단하는 것이 아니라, 게임 로직에서 조건에 따라 **자동 계산되는 수치 기반 로직**입니다.
+
+---
+
+#### 📌 작동 방식
+
+```python
+if memory in memory_log[pid]:  # 이전에 했던 기억과 동일한 진술이라면
+    suspicion_score[pid] += 1  # 의심 점수 +1
+
+memory_log: 각 캐릭터가 과거에 했던 발언(기억)을 저장하는 구조
+
+suspicion_score: 반복 발언 시 자동 증가되는 수치
+
+점수는 누적되며, 감정 상태(emotion_state) 변경에 활용됩니다
+
+⚠️ LLM은 점수를 계산하지 않으며, 게임 로직이 점수를 계산 → 결과만 LLM에게 전달
+---
+
 ### 🧩 AI 추론 시스템 구조
 
 본 게임은 아래와 같은 구조로 LLM 추론을 구성합니다:
