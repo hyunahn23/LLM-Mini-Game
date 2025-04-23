@@ -41,3 +41,6 @@ ollama run EEVE-Korean-10.8B
 4. 의심 점수 누적 및 감정 변화 반영
 5. 추방 및 승패 판단
 6. 게임 종료 후 분석 리포
+<div align="center">
+  <img src="https://image.librewiki.net/1/16/Battlecruiser_SCR_Art1.jpg" width="800"/>
+</div>
