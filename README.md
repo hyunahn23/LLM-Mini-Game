@@ -150,7 +150,7 @@ Reference: https://velog.io/@judy_choi/LLMLLaMA3-Fine-Tuning-방법-정리
 
 ---
 
-### ✈️:Future Work
+### ✈️: Future Work
 - 정재된 데이터를 구하거나 직접 구축해서 파인튜닝을 시도한 후, 모델의 성능과 게임에 질을 높일 것.
 - Streamlit, gradio, Tkinter 을 통해 쉽게 배포하도록 용이하게 만들 것.
 
