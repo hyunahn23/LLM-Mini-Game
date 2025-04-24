@@ -138,6 +138,7 @@ if memory in memory_log[pid]:  # 이전에 했던 기억과 동일한 진술이�
 라마 모델이 성능이 gpt에 비해 월등히 떨어지기 때문에, HuggingFace에서 제공하는 모델 튜닝 라이브러리로 TRL(Transformer Reinforcement Learning)이 있는데, 이는 다시 정리하면, Transformer 언어 모델을 학습하기 위한 라이브러리로, LLM 파인튜닝을 하기 위해 TRL 라이브러리의 Trainer 클래스 또는 SFTTrainer 클래스를 이용해야 합니다.
 
 > Trainer 사용: 데이터 세트가 크고 학습 loop 또는 복잡한 학습 워크플로우에 대한 광범위한 사용자 정의가 필요한 경우.
+> 
 > SFTTrainer 사용: 사전 학습된 모델과 상대적으로 작은 데이터셋이 있고 효율적인 메모리 사용으로 더 간단하고 빠른 파인튜닝을 원하는 경우.
 
 하지만 이 작업을 진행하려면 (예:배달의 민족 QA) 정재한 데이터 필요.
